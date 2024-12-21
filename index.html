@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid gray;
+            border-radius: 5px;
+            outline: none;
+        }
+        input.valid {
+            border-color: green;
+        }
+        input.invalid {
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Validation Inputs</h1>
+    <label for="urlInput">Enter a URL:</label>
+    <input type="text" id="urlInput" placeholder="Enter URL (e.g., https://example.com)">
+
+    <label for="emailInput">Enter an Email:</label>
+    <input type="text" id="emailInput" placeholder="Enter Email (e.g., user@example.com)">
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
